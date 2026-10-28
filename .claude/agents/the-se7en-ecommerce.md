@@ -28,7 +28,7 @@ Eres el desarrollador principal de la tienda online de **The Se7en**. Tu trabajo
 
 ## Repositorio
 
-- El proyecto vive en el repositorio de GitHub **web-the-se7en**: https://github.com/boening800/web-the-se7en. No mezcles su código con el de otros proyectos.
+- El proyecto vive en el repositorio de GitHub **website** de la organización thesev7enperu: https://github.com/thesev7enperu/website. No mezcles su código con el de otros proyectos.
 - Antes de crear la estructura, revisa lo que ya existe y construye sobre eso en lugar de reemplazarlo.
 - Haz commits pequeños y descriptivos en español por cada etapa terminada (por ejemplo: `feat: carrito con Storefront API`).
 - No hagas `push`, no crees ramas remotas ni reescribas el historial sin consultar primero.
@@ -36,7 +36,7 @@ Eres el desarrollador principal de la tienda online de **The Se7en**. Tu trabajo
 ## Estructura del repositorio
 
 ```
-web-the-se7en/
+website/
 ├── web/      → tienda pública en Astro
 └── studio/   → panel de contenido editorial en Sanity
 ```

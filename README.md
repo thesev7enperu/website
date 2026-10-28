@@ -7,7 +7,7 @@ Hecha con [Astro](https://astro.build) (sitio estático), CSS nativo y las fuent
 ## Estructura
 
 ```
-web-the-se7en/
+website/
 ├── .claude/agents/   → agente de Claude Code para este proyecto
 └── web/              → sitio en Astro
     ├── public/                 → favicon y robots.txt
@@ -41,7 +41,7 @@ npm run preview   # sirve la versión compilada
 
 ## Publicación en GitHub Pages
 
-El sitio se publica solo en **https://boening800.github.io/web-the-se7en/** cada vez que se sube un cambio a `main` (workflow `.github/workflows/deploy.yml`). También puede lanzarse a mano desde la pestaña **Actions**.
+El sitio se publica solo en **https://thesev7enperu.github.io/website/** cada vez que se sube un cambio a `main` (workflow `.github/workflows/deploy.yml`). También puede lanzarse a mano desde la pestaña **Actions**.
 
 Configuración única: en GitHub, **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
