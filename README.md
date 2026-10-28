@@ -55,6 +55,6 @@ Configuración única: en GitHub, **Settings → Pages → Build and deployment 
 ## Pendientes
 
 - [x] Logo, destello y foto del case originales.
-- [ ] Imagen original de los stickers de la sección Nosotros (hoy es un recorte de la maqueta).
+- [x] Imagen original de los stickers de la sección Nosotros.
 - [x] Enlaces de Instagram, Facebook y TikTok.
 - [ ] Dominio propio (opcional; hoy se publica en GitHub Pages).

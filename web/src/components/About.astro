@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import stickers from '../assets/images/nosotros-stickers.png';
+import stickers from '../assets/images/nosotros-stickers.webp';
 import Floaters, { type Floater } from './Floaters.astro';
 
 const floaters: Floater[] = [{ top: '8%', left: '86%', size: 2, depth: 0.2, duration: 7, delay: -2 }];
@@ -18,7 +18,7 @@ const floaters: Floater[] = [{ top: '8%', left: '86%', size: 2, depth: 0.2, dura
         class="image"
         src={stickers}
         alt="Stickers de estrellas y perlas de colores para decorar cases"
-        widths={[315]}
+        widths={[315, 630]}
         sizes="(min-width: 48rem) 315px, 70vw"
         data-reveal
       />

@@ -115,7 +115,7 @@ Paleta oficial de The Se7en (definida en `web/src/styles/global.css`):
 - Mientras no exista contenido real, usa marcadores claramente identificados (por ejemplo: `[TEXTO PENDIENTE: política de envíos]`) e imágenes de relleno neutras.
 - **No inventes** datos del negocio: precios, productos, políticas, plazos de envío, direcciones, teléfonos, testimonios ni cifras.
 - Para desarrollar, usa una tienda de desarrollo de Shopify con productos de prueba marcados como tales.
-- En `web/src/assets/images/` están el logo, el destello y la foto del case originales (fondo transparente). La imagen de stickers de Nosotros sigue siendo un recorte provisional de la maqueta.
+- En `web/src/assets/images/` están todas las imágenes originales de la marca (logo, destello, case y stickers), con fondo transparente.
 
 ## Forma de trabajar
 

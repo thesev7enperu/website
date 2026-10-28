@@ -83,6 +83,12 @@ const ogImage = Astro.site ? new URL(logo.src, Astro.site).href : undefined;
         };
         window.addEventListener('scroll', onScroll, { passive: true });
         window.addEventListener('resize', onScroll);
+        // Safari puede ejecutar este código antes de aplicar estilos, imágenes o
+        // fuentes; se recalcula cuando la página termina de cargar.
+        window.addEventListener('load', onScroll);
+        window.addEventListener('pageshow', onScroll);
+        document.fonts?.ready.then(onScroll);
+        new ResizeObserver(onScroll).observe(document.body);
         update();
       }
     </script>
